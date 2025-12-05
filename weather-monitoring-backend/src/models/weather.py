@@ -18,7 +18,7 @@ class WeatherData(Base):
     wind_speed = Column(Float)
     clouds = Column(Integer)
     recorded_at = Column(DateTime(timezone=True), server_default=func.now())
-    is_deleted = Column(Boolean, default=False)  # For soft delete
+    is_deleted = Column(Boolean, default=False)  # For delete
     
 class DashboardSummary(Base):
     __tablename__ = "dashboard_summary"

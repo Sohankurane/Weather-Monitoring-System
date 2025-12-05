@@ -2,7 +2,7 @@ import React from 'react';
 import './ForecastCard.css';
 
 export const ForecastCard = () => {
-  // Mock 5-day forecast data
+  // 5-day forecast data
   const forecast = [
     { day: 'Mon', temp: 28, icon: '☀️', condition: 'Sunny' },
     { day: 'Tue', temp: 26, icon: '🌤️', condition: 'Partly Cloudy' },

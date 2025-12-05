@@ -37,7 +37,7 @@ async def get_dashboard_summary(db: AsyncSession = Depends(get_db)):
     try:
         summary = await WeatherService.get_dashboard_summary(db)
         if not summary:
-            # If no summary exists, compute one now
+            
             logger.info("No dashboard summary found, computing new summary...")
             summary = await WeatherService.compute_dashboard_summary(db)
             if not summary:

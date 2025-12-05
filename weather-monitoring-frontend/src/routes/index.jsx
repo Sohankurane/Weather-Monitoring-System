@@ -8,7 +8,6 @@ export const routes = [
   },
 ];
 
-// Simple router component (no need for react-router for single page)
 export const AppRouter = () => {
   return <Dashboard />;
 };

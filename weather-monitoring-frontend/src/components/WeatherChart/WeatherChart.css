@@ -1,0 +1,39 @@
+.chart-container {
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container h3 {
+  margin: 0 0 20px;
+  font-size: 22px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.chart-wrapper {
+  margin-top: 20px;
+}
+
+.chart-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #6b7280;
+  text-align: center;
+}
+
+.chart-empty p {
+  margin: 0 0 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.chart-empty small {
+  font-size: 14px;
+  color: #9ca3af;
+}
